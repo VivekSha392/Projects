@@ -1,0 +1,146 @@
+header {
+  padding: 16px 78px;
+  background-color: #fff;
+}
+header a {
+  float: left;
+}
+.header-logo {
+  text-decoration: none;
+}
+
+.header-link {
+  width: 130px;
+  font-size: 32px;
+  color: #0084ff;
+}
+.header-link-stories {
+  margin: 0;
+  font-weight: 500;
+  font-family: Raleway;
+  font-style: italic;
+  margin-top: -6px;
+}
+.drop-down {
+  margin-top: 10px;
+  text-transform: capitalize;
+  margin-left: 35px;
+  padding-top: 0;
+  padding-left: 8px;
+  float: left;
+  justify-content: center;
+}
+.arrow {
+  float: left;
+  padding-top: 17px;
+  padding-left: 5px;
+}
+.main-content {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstheading {
+  color: #000;
+  font-weight: 900;
+  padding-top: 16px;
+}
+.filter {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.containers {
+  margin-bottom: 45px;
+  font-size: 16px;
+  padding-top: 16px;
+  height: 50px;
+}
+.cont {
+  border: #0084ff solid 1px;
+  color: #0084ff;
+  padding: 6px 14px;
+  width: auto;
+  border-radius: 15px;
+  margin: 5px;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  float: left;
+}
+.cont:active {
+  color: #fff;
+  background-color: #0084ff;
+}
+.cont:hover {
+  background-color: #0084ff;
+  color: #000;
+}
+
+.containers:hover {
+  cursor: pointer;
+}
+
+.section1 {
+  float: left;
+  width: 31.3%;
+  height: 450px;
+  margin: 2px 3px;
+  border: #000 solid 1px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.blog-card-image {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.blog-card-information {
+  padding: 10px 24px;
+}
+.blog-card-heading {
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+
+.blog-card-publisher {
+  color: #0096ff;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+.blog-card-publish-date {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 300;
+}
+.blog-card-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgb(0, 0, 0, 0.6);
+  margin: 4px 0;
+}
+.all-items {
+  display: inline;
+}
+section img:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #172146;
+  padding: 80px 16%;
+  clear: both;
+}
