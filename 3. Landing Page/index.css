@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Navigation Bar */
+
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+button:hover {
+  cursor: pointer;
+}
+.menu-div li {
+  list-style-type: none;
+  /* padding: 20px; */
+  color: #dddddd;
+}
+.menu-div li:hover {
+  text-decoration: underline #8071d0 2px;
+  color: #000000;
+  text-shadow: 3px 3px 3px#eee;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+.logo-div img {
+  width: 100px;
+  height: autopx;
+}
+
+nav button {
+  background-color: #ffd8db;
+  color: #a389cc;
+  border: none;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+label {
+  padding-bottom: 100px;
+}
+
+/* Main section starts   */
+
+main {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left-Div p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.left-Div {
+  padding: 20px;
+  width: 50%;
+  position: relative;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+P {
+  font-size: 20px;
+}
+.new-account {
+  background-color: #5243c0;
+  color: white;
+  font-size: 15px;
+  padding: 25px;
+  border: none;
+  border-radius: 20px;
+}
+.new-account:hover {
+  cursor: pointer;
+}
+.button-arrow {
+  display: flex;
+  align-items: center;
+}
+#up-Arrow {
+  margin-left: 15px;
+}
+.button-arrow img {
+  width: 50px;
+}
+/* Cards start  */
+.container {
+  margin-top: 55px;
+}
+.Card {
+  display: flex;
+  margin: 8px;
+  padding: 0px 10px;
+  align-items: center;
+  border-radius: 10px;
+  width: 350px;
+  /* background-image: url(/Assignment_\ Stunning-Project/tick-grey.png); */
+  /* background-repeat: no-repeat;
+  background-position: 20px center; */
+  background-color: rgb(214, 205, 205);
+}
+.Card:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(200, 205, 205);
+  background-color: white;
+  border: #d8d2d3 solid 1px;
+  color: blue;
+  /* background-image: url(/Assignment_\ Stunning-Project/tick-blue.png);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  z-index: 18; */
+}
+
+.Card img {
+  padding: 0px 10px;
+  width: 35px;
+  height: auto;
+}
+#pinkimage {
+  padding-left: 38px;
+}
+#blueimage {
+  padding-left: 55px;
+}
+#red-image {
+  padding-left: 85px;
+}
+.Card p {
+  padding-right: 10px;
+}
+.color {
+  width: 25px;
+  height: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.color-1 {
+  background-color: pink;
+}
+.color-2 {
+  background-color: orange;
+}
+.color-3 {
+  background-color: blue;
+}
+.color-4 {
+  background-color: red;
+}
+
+/* side-image start here */
+.main-section {
+  display: flex;
+}
