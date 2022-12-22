@@ -93,10 +93,13 @@ P {
 .button-arrow img {
   width: 50px;
 }
+
 /* Cards start  */
+
 .container {
   margin-top: 55px;
 }
+
 .Card {
   display: flex;
   margin: 8px;
@@ -104,21 +107,22 @@ P {
   align-items: center;
   border-radius: 10px;
   width: 350px;
-  /* background-image: url(/Assignment_\ Stunning-Project/tick-grey.png); */
-  /* background-repeat: no-repeat;
-  background-position: 20px center; */
+  justify-content: end;
   background-color: rgb(214, 205, 205);
+  background-image: url(/tick-gray.png);
+  background-repeat: no-repeat;
+  background-position: 20px;
 }
+
 .Card:hover {
   cursor: pointer;
   box-shadow: 3px 3px 5px rgb(200, 205, 205);
   background-color: white;
   border: #d8d2d3 solid 1px;
   color: blue;
-  /* background-image: url(/Assignment_\ Stunning-Project/tick-blue.png);
+  background-image: url(/Assignment_\ Stunning-Project/tick-blue.png);
   background-repeat: no-repeat;
   background-position: 20px;
-  z-index: 18; */
 }
 
 .Card img {
